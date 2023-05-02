@@ -1,0 +1,143 @@
+body{
+    background-image: url(/img/bg-18.jpg);
+    background-size: cover;
+  
+}
+/*  */
+.nav-item .nav-link{
+    color: white;
+    transition: .2s all linear;
+}
+.nav-item .nav-link:hover{
+    color: rgb(31, 234, 112);
+}
+/*  */
+.nav-item .nav-link{
+    color: white;
+    text-shadow: none;
+    transition: .2s all linear;
+    text-shadow: 2px 2px 5px rgba(8, 215, 39, 0.961);
+}
+.nav-item .nav-link:focus{
+    text-shadow: none;
+    color: #1bf05b;
+}
+/*  */
+.video-1{
+    width: 58%;
+    height: 70vh;  
+}
+.video{
+
+    width: 100%;
+    height:100vh;
+}
+.bt{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.all{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    width: 7em;
+    height: 2em;
+    border-radius:2em;
+    border-color: rgb(0, 217, 255);
+    outline: none;
+    background: linear-gradient(to left, rgb(225 88 209),rgb(0 217 255 / 51%),rgb(173 76 202));
+    transition: .3s all ease-in;
+
+}
+.all:hover{
+    width: 9em;
+    height: 3em;
+}
+
+.offcanvas-body ul{
+    list-style: none;
+    width: 100%;
+}
+.go{
+    text-decoration: none;
+    color: white;
+    border:1px solid rgb(0, 217, 255);
+    background: linear-gradient(to left, rgb(35 110 115), rgb(56 204 133 / 51%), rgb(140 139 49));    font-size: 20px;
+    padding-right: 17px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    font-family: 'Caveat', cursive;
+    transition: .3s all ease;
+}
+.offcanvas-title{
+    text-shadow: 2px 2px 6px #e9c46a;
+    cursor: pointer;
+}
+.go:hover{
+    text-shadow: 2px 2px 6px #e9c46a;
+    background: none;
+    background-color:transparent;
+    border-bottom-left-radius: 50px;
+    font-size: 23px;
+    border: none;
+}
+.side{
+    background-image: url(/img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* medai */
+@media screen and (max-width: 767px){
+    .navbar-toggler{
+        background-color: rgb(26, 197, 111);
+    }
+    .video{
+        width: 100%;
+        height: 60vh;
+    }
+    .video-1{
+            width: 85%;
+            height: 40vh;
+
+}
+}
+/* mobile */
+    /* tap */
+
+    @media screen and (max-width: 415px){
+        .video{
+            width: 100%;
+            height: 25vh;
+        }
+        .video-1{
+            width: 90%;
+            height: 30vh;
+            
+        }
+    }
+@media screen and (min-width:520px) and (max-width:764px){
+    .video{
+        width: 100%;
+        height: 90vh;
+    }
+    .video-1{
+        width: 72%;
+        height: 50vh;
+    }
+    }
+
+@media screen and (min-width:765px) and (max-width:993px){
+    .video{
+        width: 100%;
+        height: 30vh;
+    }
+    .video-1{
+        width: 70%;
+        height: 51vh;
+        
+    }
+    }
+
+ 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <title>shahid-login</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark con " data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="shahid-all.html"><img class="navbar-brand" src="img/shahid logo.webp" width="100"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+          <li class="nav-item basic ">
+            <a class="nav-link active  " aria-current="page" href="#" title="Please register first">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#" title="Please register first">TV Shows </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" title="Please register first">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" title="Please register first">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" title="Please register first">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" title="Please register first">Live Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" title="Please register first">My List</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#" title="Please register first">Kids</a>
+          </li>
+        </ul>
+<!-- login -->
+<div class="dropdown me-2">
+  <a class="btn btn-success dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-user"></i>
+  </a>
+  <ul class="dropdown-menu mt-2">
+    <li><a class="dropdown-item" href="shahid-login.html"><i class="fa-solid fa-arrow-right-to-bracket fa-rotate-180 text-success"></i> login </a></li>
+    <li><a class="dropdown-item" href="index.html"><i class="fa-solid fa-arrow-right-from-bracket text-danger"></i> logout </a></li>
+    <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+  </ul>
+</div>  
+<!--  login end -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--  -->
+          <!-- first-signup -->
+  <form class="row g-3 needs-validation position-absolute top-50 start-50 translate-middle " novalidate>
+    <div class="title-2">Login please <i class="fa-solid fa-arrow-right-to-bracket icon"></i></div>
+    <!-- <div class="col-md-6">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control form-control-1" id="validationCustom01" value="Mark" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control form-control-1" id="validationCustom02" value="Otto" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div> -->
+    <div class="col-md-12">
+      <label for="validationCustomUsername" class="form-label">Email</label>
+      <div class="input-group has-validation">
+        <!-- <span class="input-group-text" id="inputGroupPrepend">@</span> -->
+        <input type="email" class="form-control form-control-1" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please enter your user name.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-">
+      <label for="validationCustom03" class="form-label"> Password</label>
+      <input type="password" class="form-control form-control-1" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please enter your password.
+      </div>
+    </div>
+    <!-- <div class="col-md-6">
+      <label for="validationCustom04" class="form-label">Gender</label>
+      <select class="form-select form-control-1" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option>Male</option>
+        <option>Femal</option>
+      </select>
+      <div class="invalid-feedback ">
+        Please select your gender
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom05" class="form-label">Phone</label>
+      <input type="number" value="01" placeholder="01xxxxxxxxx" class="form-control form-control-1" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid phone.
+      </div>
+    </div> -->
+    <div class="col-md-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Save My information
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <button class="btn btn-1 my-2" type="submit"><a href="shahid-all.html"></a>login</button>
+    </div>
+  </form>
+  <!-- End-signup -->
+        
+<!-- script -->
+<script src="js/main.js"></script>
+<script src="css/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+body{
+    /* background-image:linear-gradient(to top,#635EE2,#A8DBFA,#D3F5CF); */
+    background-image:linear-gradient(to bottom,#635EE2,#A8DBFA,#D3F5CF);
+    /* background-image:linear-gradient(to bottom,#FFCC70,#C850C0,#4158D0); */
+}
+.nav-item .nav-link{
+    color: white;
+    transition: .2s all linear;
+}
+.nav-item .nav-link:hover{
+    color: rgb(31, 234, 112);
+}
+/*  */
+.nav-item .nav-link{
+    color: white;
+    text-shadow: none;
+    transition: .2s all linear;
+    text-shadow: 2px 2px 5px rgba(8, 215, 39, 0.961);
+}
+.nav-item .nav-link:focus{
+    text-shadow: none;
+    color: #1bf05b;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    border-color: #1bf05b;
+    outline: 0;
+    box-shadow:none;
+}
+.img-1 , .img-2,.img-3{
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+}
+.img-1{
+    background-image:url(/img/bg-13.jpg);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+   
+}
+.img-1::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.89), transparent);
+}
+.img-2 {
+    background-image:  url(/img/bg-14.jpg);
+}
+.img-2::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,  rgb(0, 0, 0), transparent);
+}
+.img-3 {
+    background-image: url(/img/16.jpg);
+}
+.img-3::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.81), transparent);
+}
+
+.dropdown-item{
+    font-size: 20px;
+}
+.lo-gin{
+    color: #1bf05b;
+}
+.dropdown-menu{
+    background-color:rgba(0, 0, 0, 0.491);
+    transition: .4s all linear;
+}
+.dropdown-menu:hover{
+    font-size: 18px;
+    opacity: 100%;
+}
+.icon-1{
+    font-size: 20px;
+    opacity: 30%;
+    transition: .2s all linear;
+}
+.icon-1:hover{
+    font-size: 23px;
+    opacity: 100%;
+}
+.icon{
+    border:none;
+    background-color:transparent;
+    transition: .2 all linear;
+}
+.icon:hover{
+    background-color:rgba(15, 201, 89, 0.74);
+}
+.icon:focus{
+    background-color:rgba(15, 201, 89, 0.74);
+}
+.sign{
+    border:1px solid rgb(6, 172, 92);
+    background-color:rgb(36, 214, 128);
+    transition: .2 all linear;
+}
+.sign:hover{
+    border:1px solid rgb(6, 172, 92);
+    background-color: rgb(11, 171, 94);
+}
+.mt-2{
+    overflow: hidden;
+    width: 16rem;
+}
+.first-1 {
+    width: 100%;
+    height: 50vh;
+    transition: .2s all linear;
+   
+}
+.first-1:hover{
+    width: 100%;
+  height: 46vh;
+  cursor:progress;
+}
+.card-body{
+    text-align: center;
+    background-color:#2a9d90b0;
+    /* background-color:#2a9d8f; */
+    /* background-color:#023047; */
+    /* background-image: linear-gradient(45deg,#74dccb, transparent); */
+    /* background-image:linear-gradient(to left,#d3f5cfb8,#A8DBFA,#635EE2); */
+    color: aliceblue;
+}
+
+.fa-share ,.fa-video{
+    color:#e9c46a;
+    font-size: 20px;
+    transition: .1s all linear;
+}
+.fa-video:hover{
+    color:rgb(245, 245, 245);
+    font-size: 19px;
+    text-shadow: 2px 2px 1px #e9c46a;
+}
+.fa-share:hover{
+    color:rgb(255, 255, 255);
+    font-size: 19px;
+    text-shadow: 2px 2px 1px #e9c46a;
+    cursor: not-allowed;
+}
+
+.addres{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 25px;
+    font-family: cursive;
+}
+ .icoon{
+    font-size: 22px;
+  
+}
+.title-1{
+    text-shadow:none;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: cursive;
+    transition: .2s all linear;
+}
+.title-1:hover{
+    text-shadow: 2px 2px 6px #e9c46a;
+
+}
+.card-title{
+  font-family: unset;
+  cursor: pointer;
+  text-shadow: none;
+  font-size: 20px;
+  transition: .2s all linear;
+}
+.card-title:hover{
+    text-shadow: 2px 2px 1px #e9c46a;
+    font-size: 19px;
+
+}
+.video-1{
+    height: 70vh;
+    width: 60%;
+    
+}
+.video{
+    background-image: url(/img/bg-15.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+/* medai */
+@media screen and (max-width:575px){
+    .img-1{
+    background-image: url(/img/الصفارة.jpg);
+    }
+    .img-2{
+        background-image: url(/img/نوتردام.jpg);
+    }
+    .img-3{
+        background-image: url(/img/.jpg);
+    }
+    .navbar-toggler{
+        background-color: aliceblue;
+    }
+    .video{
+        background-image: url(/img/16.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .video-1{
+        width: 90%;
+        
+    }
+    .card-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 821px){
+    .card-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
